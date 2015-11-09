@@ -11,6 +11,8 @@ $(document).ready(function(){
     for (col = 1; col <= colsPerRow; col++) {
       var colNode = document.createElement("G");
       var xTransform = 50 + (col-1) * 150;
+      //$("#calendar-root").append("<g/>", {transform: "translate(" + xTransform + ",0)"});
+      //var colNode = document.createElement("G");
       colNode.setAttribute("transform", "translate(" + xTransform + ",0)");
       //colNode.setAttribute("onClick", "hatch_open('days/1.html')");
       var rect = document.createElement("rect");

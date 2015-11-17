@@ -13,17 +13,17 @@ $(document).ready(function() {
           .attr("transform", "translate(" + xTransform + ",0)")
           .on("click", function() {
             var no = d3.select(this)
-                .selectAll('text')
+                .selectAll('rect')
                 .attr('id');
             hatchOpener(no);
           });
       cell.append("text")
-          .attr("id", hatchNo)
           .attr("class", "hatch")
           .attr("x", "28")
           .attr("y", "48")
           .text(hatchNo);
       cell.append("rect")
+          .attr("id", hatchNo)
           .attr("class", "hatch")
           .attr("x", 0)
           .attr("y", 0)
@@ -34,5 +34,8 @@ $(document).ready(function() {
 });
 
 function hatchOpener(no) {
-  console.log("Opening hatch: " + no);
+    console.log("Opening hatch: " + no);
+    d3.select('rect[id="'+no+'"]')
+        .style({fill:"black"});
+    window.open('days/' + no + '.html', '_self');
 }

@@ -12,8 +12,10 @@ $(document).ready(function() {
       cell = rowGroup.append("g")
           .attr("transform", "translate(" + xTransform + ",0)")
           .on("click", function() {
-            var element = d3.select(this);
-            console.log("clicked: ", element);
+            var no = d3.select(this)
+                .selectAll('text')
+                .attr('id');
+            hatchOpener(no);
           });
       cell.append("text")
           .attr("id", hatchNo)
@@ -31,7 +33,6 @@ $(document).ready(function() {
   }
 });
 
-function hatchOpener(d, i) {
-  var hatchElement = d3.select(this);
-  console.log("Opening hatch: " + this.id);
+function hatchOpener(no) {
+  console.log("Opening hatch: " + no);
 }

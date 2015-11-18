@@ -36,6 +36,6 @@ $(document).ready(function() {
 function hatchOpener(no) {
     console.log("Opening hatch: " + no);
     d3.select('rect[id="'+no+'"]')
-        .style({fill:"black"});
-    window.open('days/' + no + '.html', '_self');
+        .style({fill:"rgba(0,0,0,0.7)"});
+    //window.open('days/' + no + '.html', '_self');
 }

@@ -11,3 +11,20 @@ text.hatch {
 rect:hover {
   cursor: pointer;
 }
+
+.sizedImage {
+  border: 1px solid #000;
+  display: block;
+  max-width: 600px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+
+.widthSet {
+  max-width: 100px;
+}
+
+.heightSet {
+  max-height: 100px;
+}

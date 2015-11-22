@@ -69,5 +69,7 @@ function getCookie(cname) {
             return JSON.parse(cookieValue);
         }
     }
-    return new Array(24).fill(false);
+    var result = new Array(24);
+    for (i=0; i<24; i++) {result[i] = false;}
+    return result
 }

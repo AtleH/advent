@@ -1,10 +1,11 @@
 ## Adventskalender 2015 ##
 
-## Tasks ##
-1. Upgrade to Angular JS
-1. Generate SVG elements from script
-1. Fix SSH-problem in GitHub
-1. Add click logic that prevents cheating (opening a hatch before the actual date)
+## Oppgaver ##
+1. Lag lavoppløsningsversjon av bildene. Flytt til Dropbox.
+1. Legg ut ny versjon for testing.
+1. Test med andre nettlesere: Firefox, IE, Safari?
+1. Test fra mobil
+1. Legg på logikk som hindrer åpning av luker før tiden.
 
 ## Links ##
 How to deploy directly from GitHub:

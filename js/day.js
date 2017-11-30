@@ -1,4 +1,4 @@
-var imageFolder = 'https://dl.dropboxusercontent.com/u/105997160/advent2015/';
+var imageFolder = 'https://dl.dropboxusercontent.com/s/vgfssqvkjjxhiyx/advent2015/';
 
 $(document).ready(function () {
     var day = getQueryVariable('day');

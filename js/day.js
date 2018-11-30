@@ -1,4 +1,4 @@
-var imageFolder = 'https://dl.dropboxusercontent.com/s/vgfssqvkjjxhiyx/advent2015/';
+var imageFolder = 'img/';
 
 $(document).ready(function () {
     var day = getQueryVariable('day');
@@ -26,124 +26,124 @@ function getQueryVariable(variable) {
 
 var content = [
     { // 1
-        q1: 'I 2007 var vi i Portugal. Hva heter hovedstaden i landet?',
-        q2: 'Vi (i alle fall de fleste av oss) prøvde en sport for første gang - hvilken?',
-        q3: 'Hvilket annet land i verden har portugisisk som språk?'
+        q1: 'Ingeborg 15 år – 2007. Siste år med tradisjonell sykkeltur. Hvor gikk turen?',
+        q2: 'Stor familiebegivenhet i mai – hvilken?',
+        q3: 'Hva er en velosiped?'
     },
     { // 2
-        q1: 'Hvem var kjøkkenhjelp i Ingeborgs konfirmasjon?',
-        q2: 'Hvem var fotograf?',
-        q3: 'En kjent norsk ektepar fylte 70 år i 2007 - hvem?'
+        q1: 'Fortsatt 2007. Utenlandstur til sørlige strøk – både hovedstad, biltur og badeferie. Hvor reiste vi?',
+        q2: 'Avslutningen på hyttepåska var litt spesiell i 2007 – hvordan?',
+        q3: 'Hvor langt er et maratonløp?'
     },
     { // 3
-        q1: 'I 2007 arrangerte vi den siste sykkelturen for familiene Venås-Flægstad-Haugan. Hvem var ikke med på hele turen? ',
-        q2: 'Hvor gikk turen?',
-        q3: 'Hvem vant 4. etappe i Tour de France i 2007?'
+        q1: '2008. Hvor ble dette bildet tatt? Tips: Ferietur',
+        q2: 'Sykkelturen 2008 ble til en dagstur til fots. Hvor gikk vi?',
+        q3: 'Fra hvilken by er handlingen i Anne Franks dagbok?'
     },
     { // 4
-        q1: 'Hvor gikk utenlandsturen i 2008?',
-        q2: 'Hva het hunden på bildet?',
-        q3: 'Hva heter dronninga landet?'
+        q1: 'Fortsatt 2008. Fjellturen ble lang – med både fint vær og dårlig vær, men hvor?',
+        q2: 'Sannelig ble det utenlandstur i år også, men hvor? Tips: Ingeborg feiret 16 årsdagen på ferieturen.',
+        q3: 'Hvilken planet blir kalt den røde planeten?'
     },
     { // 5
-        q1: 'Hvem er dette?',
-        q2: 'Hvem vant seriemesterskapet i herrefotball for første gang på 44 år dette året (2007)? (Nei, det var ikke Rosenborg...)',
-        q3: 'Hvem har skrevet «Vi ere en nasjon vi med---? Og hva kalles sangen?'
+        q1: '2009 - Fia – Sweet painted Lady: Når var hun fødd?',
+        q2: 'Enn Demi?',
+        q3: 'Hva kalles korsang uten akkompagnement?'
     },
     { // 6
-        q1: 'Hvem gifta seg sommeren 2008?',
-        q2: 'Emma Tallulah Behn ble født i september 2008 - hvem er foreldrene hennes?',
-        q3: 'Hva betyr det at 2008 var skuddår?'
+        q1: 'Fortsatt 2009: Hvor i all verden er dette bildet tatt?',
+        q2: 'Det ble fjelltur i år også – men vi endret rute underveis på grunn av været. Hvor gikk turen?',
+        q3: 'Norgesferie ble det også – langs kysten fra Hafslo. Vi besøkte fire av de seks byene i Møre og Romsdal. Hva heter de og hva heter den siste?'
     },
     { // 7
-        q1: 'Høstferien 2009 var vi i Hellas - men hva het øya?',
-        q2: 'Hva heter hovedstaden i Hellas?',
-        q3: 'Har vi vært på andre greske øyer, ev hvilke?'
+        q1: '2010: Et avslutta kapittel for Anne. Hvor/når er dette bildet tatt?',
+        q2: 'Atle og Ingrid hadde 20 års bryllupsdag. Men hva kalles det?',
+        q3: 'Hva kalles 30 års bryllupsdag?'
     },
     { // 8
-        q1: 'Hvor er Ingrid og Atle her?',
-        q2: 'Hva skjer?',
-        q3: 'Hvor mange ganger har Anne og Ingeborg vært i denne byen?'
+        q1: 'Fortsatt 2010: På sensommeren var det et større arrangement i Trondheim som vi damene var en del involvert i – spesielt Ingeborg. Hva var det?',
+        q2: 'Ingeborg var ellers veldig aktiv dette året, med reiser både hit og dit og to utenlandsturer. Hvor gikk turene?',
+        q3: 'Anne ga Ingeborg en spesiell bursdagsgave i 2010. Hva var det?'
     },
     { // 9
-        q1: 'Hvor mange ganger har Ingeborg og Anne deltatt i isbadinga ved Børsjøen?',
-        q2: 'Hvor feiret vi påska i 2011?',
-        q3: 'Når er 1. påskedag? Første søndag etter.....?'
+        q1: '2011: Ingeborg avslutta et kapittel i livet sitt i 2011. Hvor er dette bildet fra?',
+        q2: 'Vi reiste langt i påskeferien – hvor?',
+        q3: 'Hva er en Stradivarius?'
     },
     { // 10
-        q1: 'Hvor er dette?',
-        q2: 'Hvor gammel ble Bestemor?',
-        q3: 'Hva var pikenavnet hennes?'
+        q1: 'Fortsatt 2011: Norgesferie i sommer. Hvor er dette bildet tatt?',
+        q2: 'På heimturen kjørte vi gjennom to av de store turistattraksjonene i Norge. Hvor var vi da?',
+        q3: 'Hva er crépe suzettes?'
     },
     { // 11
-        q1: 'Hva het de to franske guttene som bodde hos oss ei uke høsten 2010?',
-        q2: 'Vi hadde også besøk av ei fransk jente i 2009, hva het hun?',
-        q3: 'Hva heter den franske nasjonalsangen?'
+        q1: 'Vi har kommet til 2012. Anne spilte KM Futsal for første gang. Hvilket lag spilte hun for?',
+        q2: 'Siste halvdel av 2012 ble et krevende år for Ingrid. Hvorfor?',
+        q3: 'Hva er kallenavnet til golfspilleren Suzann Pedersen?'
     },
     { // 12
-        q1: 'Hvem var kjøkkenhjelp i Annes konfirmasjon?',
-        q2: 'Hvem tok de «offisielle» konfirmasjons-bildene?',
-        q3: 'Hva fikk dere i konfirmasjonsgave fra Steinkjergjengen? Enn fra Hafslo?'
+        q1: 'Sommeren 2012. Ingeborg avslutta året på Øvrevoll. Hva het sjefen hennes på Øvrevoll?',
+        q2: 'To uker i «Syden». Hva het byen?',
+        q3: 'Vi tok en biltur til nabolandet og en berømt by der også. Hva heter landet og byen?'
     },
     { // 13
-        q1: 'Sommeren 2010 jobbet Ingeborg på Øvrevoll. I hvilken kommune ligger Øvrevoll?',
-        q2: 'Hva heter kommunesenteret?',
-        q3: 'Hva heter det mest kjente fengslet som ligger i kommunen?'
+        q1: '',
+        q2: '',
+        q3: ''
     },
     { // 14
-        q1: 'Sommeren 2010 var vi i Frankrike - igjen. Hvilken by reiste vi til først?',
-        q2: 'Vi kom dit på nasjonaldagen, når er den?',
-        q3: 'Vi besøkte en by i Pyreneene som er hjembyen til en kjent skiskytter - hvem?'
+        q1: '',
+        q2: '',
+        q3: ''
     },
     { // 15
-        q1: 'Hytte til hytte i Sylan - hvor startet vi fra?',
-        q2: 'Hvem ble syk og måtte dra hjem?',
-        q3: 'Hvilke hytter i Sylan har Anne og Ingeborg vært på?'
+        q1: '',
+        q2: '',
+        q3: ''
     },
     { // 16
-        q1: 'Påskeferie 2011 - hvor?',
-        q2: 'Hva het de to karene som satt sammen med Atle på flyet sørover?',
-        q3: 'I hvilket land ligger Grand Canaria?'
+        q1: '',
+        q2: '',
+        q3: ''
     },
     { // 17
-        q1: 'Kjent vei i Møre og Romsdal - hva heter den?',
-        q2: 'Hva slags hunder har Astrid og Olaf?',
-        q3: 'I hvilket fylke ligger Svatsum og Gausdal?'
+        q1: '',
+        q2: '',
+        q3: ''
     },
     { // 18
-        q1: 'Hvor gikk turen dette året (2012) - by og land?',
-        q2: 'Vi besøkte også nabolandet og en kjent by med ei kjent bru, navn på land og by?',
-        q3: 'Hvilket land var disse to landene og flere til en del av før Balkankrigene på 90-tallet?'
+        q1: '',
+        q2: '',
+        q3: ''
     },
     { // 19
-        q1: 'Høstferie 2012: Hva heter toppen i Bymarka som dette bildet er tatt?',
-        q2: 'Hvor ble Fia født?',
-        q3: 'Hva het mora til Fia?'
+        q1: '',
+        q2: '',
+        q3: ''
     },
     { // 20
-        q1: 'Hvem er dette?',
-        q2: 'Vi var i konfirmasjon til Even i 2012 - hvor bor Even (eller egentlig Brage)?',
-        q3: 'I hvilket fylke ligger Mysen?'
+        q1: '',
+        q2: '',
+        q3: ''
     },
     { // 21
-        q1: 'Når kom Demi til oss?',
-        q2: 'Hva het eieren vi overtok henne etter?',
-        q3: 'Hva heter korthåret Vorsteh på engesk?'
+        q1: '',
+        q2: '',
+        q3: ''
     },
     { // 22
-        q1: 'Når ble Martine konfirmert?',
-        q2: 'Hva heter «huset» der selskapet var?',
-        q3: 'Hvor kommer May-Trude fra? (by)'
+        q1: '',
+        q2: '',
+        q3: ''
     },
     { // 23
-        q1: 'Hvem var julenisse for oss da dere var yngre?',
-        q2: 'Hva er hovedingrediensene i marsipan?',
-        q3: 'Hvor mange søndager er det i advent?'
+        q1: '',
+        q2: '',
+        q3: ''
     },
     { // 24
-        q1: 'Hvem har produsert Julebrus fram til i år?',
-        q2: 'Hva heter favorittjulesangen til Ingrid?',
-        q3: 'Hvem har skrevet «Nu har vi vaska golvet»?'
+        q1: '',
+        q2: '',
+        q3: ''
     }
 ];
 

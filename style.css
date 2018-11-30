@@ -1,0 +1,30 @@
+/* Styles go here */
+
+rect.hatch {
+  fill:rgba(0,0,0,.1);  stroke-width:3; stroke:rgba(255,0,0,1);
+}
+
+text.hatch {
+  stroke: darkred; fill: darkred; font-family: sans-serif; font-size: xx-large;
+}
+
+rect:hover {
+  cursor: pointer;
+}
+
+.sizedImage {
+  border: 1px solid #000;
+  display: block;
+  max-width: 600px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+
+.widthSet {
+  max-width: 100px;
+}
+
+.heightSet {
+  max-height: 100px;
+}

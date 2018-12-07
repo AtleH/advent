@@ -86,67 +86,63 @@ var content = [
         q3: 'Vi tok en biltur til nabolandet og en berømt by der også. Hva heter landet og byen?'
     },
     { // 13
-        q1: '',
-        q2: '',
-        q3: ''
+        q1: 'Så er det 2013: Hva synger Anne her? Og hvorfor?',
+        q2: 'Hvor var damene på ferie dette året?',
+        q3: 'Hvem var president i USA før Bill Clinton?'
     },
     { // 14
-        q1: '',
-        q2: '',
-        q3: ''
+        q1: 'Fortsatt 2013: Atle, Demi og Ingrid prøvde seg på en «tur» i Trondheim – Ingrid tryna så de fullførte ikke. Hva heter turen?',
+        q2: 'Vi feira runddag i 2013 – hvem og alder?',
+        q3: 'Og var gjester i konfirmasjon – hvem ble konfirmert?'
     },
     { // 15
-        q1: '',
-        q2: '',
-        q3: ''
+        q1: 'Vi er i 2014: Dette bildet har jeg kalt «Hulepiken» - hvem er dette?',
+        q2: 'Og hva er anledningen?',
+        q3: 'Anne ble kretsmester på nyåret – hvilken tittel fikk hu?'
     },
     { // 16
-        q1: '',
-        q2: '',
-        q3: ''
+        q1: 'Fortsatt 2014: Atle og Ingrid var i Hafslo en snartur denne sommeren – hva var anledningen?',
+        q2: 'Utenlandsturen gikk til ei gresk øy som vi besøkte da Anne og Ingeborg var små. Hva heter den?',
+        q3: 'Vi har en sterk sene bakerst i foten. Hvilken sagnhelt har gitt navnet til denne?'
     },
     { // 17
-        q1: '',
-        q2: '',
-        q3: ''
+        q1: 'Så har vi kommet til 2015: To familiebegivenheter på våren – hva var de?',
+        q2: 'Atle var utenlands uten damene sine i sommer – hvor da?',
+        q3: 'Hva er egentlig osteoporose for slags sykdom?'
     },
     { // 18
-        q1: '',
-        q2: '',
-        q3: ''
+        q1: 'Flere spørsmål fra 2015: Atle og Ingrid var på langtur på høsten 2015. Hvor var vi?',
+        q2: 'Og hvorfor dro vi dit?',
+        q3: 'Hva er en mastiff?'
     },
     { // 19
-        q1: '',
-        q2: '',
-        q3: ''
+        q1: 'Og så er det 2016: Litt enkelt for Anne kanskje – men hvilken begivenhet er dette?',
+        q2: 'Og så må vi gjøre det enkelt for Ingeborg også: Hva er det fulle navnet til Friken?',
+        q3: 'Hva er en Sørgekåpe?'
     },
     { // 20
-        q1: '',
-        q2: '',
-        q3: ''
+        q1: 'Fortsatt 2016: Anne er hjemme i Norge igjen og ivrig på fjelltur. Hvor gikk turen?',
+        q2: 'Anne og Ingrid var på dametur på vårparten. Hvor gikk den turen?',
+        q3: 'Og så var Atle og Ingrid på tur enda tidligere den våren – storby denne gangen. Hvor?'
     },
     { // 21
-        q1: '',
-        q2: '',
-        q3: ''
+        q1: 'Og nå 2017: Ut på tur – aldri sur. Atle og Ingrid på vårtur til sydlige strøk. Hvor?',
+        q2: 'Friken var også på reisefot denne sommeren. Hvor er bildet tatt?',
+        q3: 'Anne var på langtur i sommer – hvor?'
     },
     { // 22
-        q1: '',
-        q2: '',
-        q3: ''
+        q1: 'Mer 2017: 17. mai: Hvor er Anne her?',
+        q2: 'Hele familien var på uteteater i august. Hva var det?',
+        q3: 'Hva slags vesen er en karuss?'
     },
     { // 23
-        q1: '',
-        q2: '',
-        q3: ''
+        q1: 'Og så endelig 2018: Huldra ved Børsjøen. Men hva er ei hulder?',
+        q2: 'Hvem var Ingrid sammen med på Høvringen i høst?',
+        q3: 'I hvilket fjellområde ligger Høvringen?'
     },
     { // 24
-        q1: '',
-        q2: '',
-        q3: ''
+        q1: 'Enda mer 2018: Et høydepunkt i sommer. Hva og hvor?',
+        q2: 'Hva heter de tre medlemmene i bandet?',
+        q3: 'Hvem spilte finalen i VM fotball for herrer og hva ble resutatet?'
     }
 ];
-
-
-
-

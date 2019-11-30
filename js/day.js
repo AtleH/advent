@@ -26,123 +26,123 @@ function getQueryVariable(variable) {
 
 var content = [
     { // 1
-        q1: 'Ingeborg 15 år – 2007. Siste år med tradisjonell sykkeltur. Hvor gikk turen?',
-        q2: 'Stor familiebegivenhet i mai – hvilken?',
-        q3: 'Hva er en velosiped?'
+        q1: 'Anne i Ghana i januar. Hva heter det viktigste stammespråket i Ghana?',
+        q2: 'Hva heter hovedstaden i Ghana?',
+        q3: 'Hvem ble ny landbruksminister i Norge i januar 2019?'
     },
     { // 2
-        q1: 'Fortsatt 2007. Utenlandstur til sørlige strøk – både hovedstad, biltur og badeferie. Hvor reiste vi?',
-        q2: 'Avslutningen på hyttepåska var litt spesiell i 2007 – hvordan?',
-        q3: 'Hvor langt er et maratonløp?'
+        q1: 'Bymarka i januar. Nevn tre serveringshytter i Bymarka',
+        q2: 'Hvem er kommunaldirektør for kultur og næring i Trondheim?',
+        q3: 'Hvem vant Tour de Ski for herrer 2018/2019?'
     },
     { // 3
-        q1: '2008. Hvor ble dette bildet tatt? Tips: Ferietur',
-        q2: 'Sykkelturen 2008 ble til en dagstur til fots. Hvor gikk vi?',
-        q3: 'Fra hvilken by er handlingen i Anne Franks dagbok?'
+        q1: 'Bursdag Atle, februar. Hvilket stjernetegn er Atle født i?',
+        q2: 'Det var VM i alpint i Åre i februar 2019. Hvem vant gull og sølv i VM i herrenes utfor?',
+        q3: 'En tidligere stor skihopper fra Finland døde i februar, bare 55 år gammel. Hva het han?'
     },
     { // 4
-        q1: 'Fortsatt 2008. Fjellturen ble lang – med både fint vær og dårlig vær, men hvor?',
-        q2: 'Sannelig ble det utenlandstur i år også, men hvor? Tips: Ingeborg feiret 16 årsdagen på ferieturen.',
-        q3: 'Hvilken planet blir kalt den røde planeten?'
+        q1: 'Vinterferie på hytta, februar. VM på ski i Seefeld 2019 - seks øvelser for herrer, hvor mange gull tok Norge?',
+        q2: 'Hvem ga ut EP-en Sas Plus/Sas Pussy 22. februar?',
+        q3: 'Når har Martine bursdag og hvilket år er hun født?'
     },
     { // 5
-        q1: '2009 - Fia – Sweet painted Lady: Når var hun fødd?',
-        q2: 'Enn Demi?',
-        q3: 'Hva kalles korsang uten akkompagnement?'
+        q1: 'Skitur i mars. Hvor er Atle og Demi her?',
+        q2: 'Sigrid ga ut debutalbumet sitt i mars 2019 - hva het det?',
+        q3: 'VM på ski i Seefeld 2019 - hvilken plass havnet de norske damene på i stafetten?'
     },
     { // 6
-        q1: 'Fortsatt 2009: Hvor i all verden er dette bildet tatt?',
-        q2: 'Det ble fjelltur i år også – men vi endret rute underveis på grunn av været. Hvor gikk turen?',
-        q3: 'Norgesferie ble det også – langs kysten fra Hafslo. Vi besøkte fire av de seks byene i Møre og Romsdal. Hva heter de og hva heter den siste?'
+        q1: 'Ridetur på Byåsen i mars. Hva heter de tre andre "gamle" islandshestene på Torshaug?',
+        q2: 'Anne er fortsatt i Ghana. Nevn to av nabolandene til Ghana.',
+        q3: 'Hvem overtok som justisminister etter Tor Mikkel Wara?'
     },
     { // 7
-        q1: '2010: Et avslutta kapittel for Anne. Hvor/når er dette bildet tatt?',
-        q2: 'Atle og Ingrid hadde 20 års bryllupsdag. Men hva kalles det?',
-        q3: 'Hva kalles 30 års bryllupsdag?'
+        q1: 'April - Atle, Demi og Ingrid på skitur før påske. Hvordan bestemmes dato for 1. påskedag?',
+        q2: 'Hvem skrev "Jeg velger meg april?"',
+        q3: 'Hvilken hytte i Sylan har både Åsta og Helge hatt sommerjobb på?'
     },
     { // 8
-        q1: 'Fortsatt 2010: På sensommeren var det et større arrangement i Trondheim som vi damene var en del involvert i – spesielt Ingeborg. Hva var det?',
-        q2: 'Ingeborg var ellers veldig aktiv dette året, med reiser både hit og dit og to utenlandsturer. Hvor gikk turene?',
-        q3: 'Anne ga Ingeborg en spesiell bursdagsgave i 2010. Hva var det?'
+        q1: 'Påske i april, Anne og Atle på fjelltur. Nevn tre hytter i Sylan som dere har vært på.',
+        q2: 'Hvilket kjent bygg brant 15. april?',
+        q3: 'Ingrid og Atle reiste med Hurtigruten til Bodø i slutten av april. Men hva er sørligste og nordligste anløp for Hurtigruten?'
     },
     { // 9
-        q1: '2011: Ingeborg avslutta et kapittel i livet sitt i 2011. Hvor er dette bildet fra?',
-        q2: 'Vi reiste langt i påskeferien – hvor?',
-        q3: 'Hva er en Stradivarius?'
+        q1: 'Ingrid feiret bursdag i mai. Hvilket stjernetegn er hun født i?',
+        q2: 'Hvem ble ny eldre- og folkehelseminister i Norge?',
+        q3: 'Rosenborg spilte 16. mai-kamp mot Haugesund. Hva ble resultatet?'
     },
     { // 10
-        q1: 'Fortsatt 2011: Norgesferie i sommer. Hvor er dette bildet tatt?',
-        q2: 'På heimturen kjørte vi gjennom to av de store turistattraksjonene i Norge. Hvor var vi da?',
-        q3: 'Hva er crépe suzettes?'
+        q1: '17. mai-middag i Smiskaret. Hvem har skrevet teksten til "Ja vi elsker"?',
+        q2: 'Vi feiret 17. mai i utlandet i 2005. Hvor var vi da?',
+        q3: 'Hvor mange dager er det i mai?'
     },
     { // 11
-        q1: 'Vi har kommet til 2012. Anne spilte KM Futsal for første gang. Hvilket lag spilte hun for?',
-        q2: 'Siste halvdel av 2012 ble et krevende år for Ingrid. Hvorfor?',
-        q3: 'Hva er kallenavnet til golfspilleren Suzann Pedersen?'
+        q1: 'Juni - Atle, Demi og Ingrid på fjelltur - navn og høyde vises på bildet, men hvilken kommune?',
+        q2: 'Hvem vant finalen i Champions League (2018/2019)?',
+        q3: 'Ingrid ble pensjonist 1. juni - 64 år gammel, men hva er den "normale" pensjonsalderen i Norge?'
     },
     { // 12
-        q1: 'Sommeren 2012. Ingeborg avslutta året på Øvrevoll. Hva het sjefen hennes på Øvrevoll?',
-        q2: 'To uker i «Syden». Hva het byen?',
-        q3: 'Vi tok en biltur til nabolandet og en berømt by der også. Hva heter landet og byen?'
+        q1: '6. juni og avslutning for Anne & co. Hva het "The Lady with the Lamp" som var en pioner i moderne sykepleie?',
+        q2: 'Hva heter de to hjerneforskerne ved NTNU som fikk nobelprisen i medisin i 2014?',
+        q3: 'Hva heter adm.dir. ved St. Olavs Hospital?'
     },
     { // 13
-        q1: 'Så er det 2013: Hva synger Anne her? Og hvorfor?',
-        q2: 'Hvor var damene på ferie dette året?',
-        q3: 'Hvem var president i USA før Bill Clinton?'
+        q1: 'Juli og hyttetur for Ingeborg, Demi og Ingrid. Hvor høyt ligger Børsjøen (50 m over/under godtas)?',
+        q2: 'Hva het mormor og morfar Melan til fornavn',
+        q3: 'Hva het den nye statsministeren i Storbritannia som tiltrådte 24. juli?'
     },
     { // 14
-        q1: 'Fortsatt 2013: Atle, Demi og Ingrid prøvde seg på en «tur» i Trondheim – Ingrid tryna så de fullførte ikke. Hva heter turen?',
-        q2: 'Vi feira runddag i 2013 – hvem og alder?',
-        q3: 'Og var gjester i konfirmasjon – hvem ble konfirmert?'
+        q1: 'Sommerferie på hytta i juli med besøk av fam Venås-Flægstad. Hvor jobber Helge?',
+        q2: 'Hvor kommer Johan fra?',
+        q3: 'Hva het foreldrene til Sveinung?'
     },
     { // 15
-        q1: 'Vi er i 2014: Dette bildet har jeg kalt «Hulepiken» - hvem er dette?',
-        q2: 'Og hva er anledningen?',
-        q3: 'Anne ble kretsmester på nyåret – hvilken tittel fikk hu?'
+        q1: 'Ingeborg fylte 27 år 3. august. Hvilket stjernetegn er hun født under?',
+        q2: 'Samme dag skjedde en stor transport- eller kommunikasjonsbegivenhet i Trondheim - hvilken?',
+        q3: 'Hva heter Norges sandvolleyballpar som har vunnet det meste av det som er å vinne det siste året?'
     },
     { // 16
-        q1: 'Fortsatt 2014: Atle og Ingrid var i Hafslo en snartur denne sommeren – hva var anledningen?',
-        q2: 'Utenlandsturen gikk til ei gresk øy som vi besøkte da Anne og Ingeborg var små. Hva heter den?',
-        q3: 'Vi har en sterk sene bakerst i foten. Hvilken sagnhelt har gitt navnet til denne?'
+        q1: 'Demi og Ingrid på tur i nærområdet - hva er Chaussé 1859?',
+        q2: 'Hvor går Chaussé 1859?',
+        q3: 'Hve betyr chaussé?'
     },
     { // 17
-        q1: 'Så har vi kommet til 2015: To familiebegivenheter på våren – hva var de?',
-        q2: 'Atle var utenlands uten damene sine i sommer – hvor da?',
-        q3: 'Hva er egentlig osteoporose for slags sykdom?'
+        q1: 'Trolsk stemning i september. Hvor kan dette være, mon tro? Turterreng i Trondheim kommune',
+        q2: '9. september var det kommune- og fylkestingvalg i Norge. Hvem ble ny ordfører i Malvik?',
+        q3: 'Og hvem er fylkesordfører i Trøndelag?'
     },
     { // 18
-        q1: 'Flere spørsmål fra 2015: Atle og Ingrid var på langtur på høsten 2015. Hvor var vi?',
-        q2: 'Og hvorfor dro vi dit?',
-        q3: 'Hva er en mastiff?'
+        q1: '26. september fylte Anne 25 år. Hvilket stjernetegn er hun født under?',
+        q2: 'Hvor mange stjernetegn er det i Dyrekretsen',
+        q3: 'En av de fire som ble dømt for Orderuddrapene, døde i september. Hva het han?'
     },
     { // 19
-        q1: 'Og så er det 2016: Litt enkelt for Anne kanskje – men hvilken begivenhet er dette?',
-        q2: 'Og så må vi gjøre det enkelt for Ingeborg også: Hva er det fulle navnet til Friken?',
-        q3: 'Hva er en Sørgekåpe?'
+        q1: 'Atle og Ingrid var på fottur i Provence i oktober. Hele familien var i Frankrike i 2010 - hva het landsbyen der vi så Tour de France-etappen?',
+        q2: 'Både morfar Johan og bestefar Magnus hadde geburtsdag i oktober, men hva var datoene?',
+        q3: 'I dag blir Oktoberfest arrangert både i Norge og andre land, men i hvilket land ble den opprinnelige Oktoberfesten arrangert? '
     },
     { // 20
-        q1: 'Fortsatt 2016: Anne er hjemme i Norge igjen og ivrig på fjelltur. Hvor gikk turen?',
-        q2: 'Anne og Ingrid var på dametur på vårparten. Hvor gikk den turen?',
-        q3: 'Og så var Atle og Ingrid på tur enda tidligere den våren – storby denne gangen. Hvor?'
+        q1: 'På tur til Skarpåsen i oktober. På veien dit går vi forbi Gapberget. Hvorfor har det fått det navnet?',
+        q2: 'Hva heter arbeids- og sosialministeren vår som var mye i  mediene i oktober pga NAV-skandalen? ',
+        q3: 'Og hva heter NAV-sjefen (arbeids- og velferdsdirektøren)?'
     },
     { // 21
-        q1: 'Og nå 2017: Ut på tur – aldri sur. Atle og Ingrid på vårtur til sydlige strøk. Hvor?',
-        q2: 'Friken var også på reisefot denne sommeren. Hvor er bildet tatt?',
-        q3: 'Anne var på langtur i sommer – hvor?'
+        q1: 'November-bildet er fra Trollheimen i august: Anne, Atle og Demi spiller Backgammon. Hvor mange brikker har hver spiller i backgammon?',
+        q2: 'Hvem vant VM i Fischersjakk i månedsskiftet oktober-november?',
+        q3: 'Hvor mange bønder er det på et sjakkbrett?'
     },
     { // 22
-        q1: 'Mer 2017: 17. mai: Hvor er Anne her?',
-        q2: 'Hele familien var på uteteater i august. Hva var det?',
-        q3: 'Hva slags vesen er en karuss?'
+        q1: 'November-bilde nr 2 fra Selbu: Hvordan ser kommunevåpenet til Selbu ut?',
+        q2: 'Enn kommunevåpenet til Malvik?',
+        q3: 'Hva heter kulturhuset i Malvik (Hommelvik)?'
     },
     { // 23
-        q1: 'Og så endelig 2018: Huldra ved Børsjøen. Men hva er ei hulder?',
-        q2: 'Hvem var Ingrid sammen med på Høvringen i høst?',
-        q3: 'I hvilket fjellområde ligger Høvringen?'
+        q1: 'Desember-bildet er fra våren 2019 - hva heter den store hvite planten/busken framfor dukkestua?',
+        q2: 'Nevn ti spiselige "ting" vi (dvs Ingrid) dyrker i hagen',
+        q3: 'På latin heter denne vanlige vårblomsten Tussilago farfara, men hva heter den på norsk?'
     },
     { // 24
-        q1: 'Enda mer 2018: Et høydepunkt i sommer. Hva og hvor?',
-        q2: 'Hva heter de tre medlemmene i bandet?',
-        q3: 'Hvem spilte finalen i VM fotball for herrer og hva ble resutatet?'
+        q1: 'Desember - et trivelig bilde fra jula i fjor: Hva er forskjellen på champagne og andre musserende drikker?',
+        q2: 'Hvorfor startet en Government shutdown i USA i desember 2018?',
+        q3: 'Hvilken plass kom Norge på under håndball-EM 2018?'
     }
 ];
